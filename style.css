@@ -1,0 +1,52 @@
+body{
+    background-color: #3fa8bb;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login{
+    width: 360px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+label{
+    font-size: 14pt;
+    margin: auto;
+    margin-left: 75px;
+    padding: 5px;
+    display: block;
+}
+
+input{
+    padding:5px;
+    width: 200px;
+    margin-left: 75px;
+    border-radius: 5px;
+}
+
+
+button{
+    margin-left: 75px;
+    margin-top: 20px;
+    display: block;
+    width: 220px;
+   background-color: #3fa8bb;
+    color:white;
+    padding: 5px;
+    border-radius: 5px;
+
+
+}
+
+h1{
+    text-align: center;
+}
+
+
+
+
+
