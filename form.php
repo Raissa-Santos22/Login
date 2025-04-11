@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="index.php">
+    <form action="index.php" method="post">
         <div class="login">
         <h1>Login</h1>
         <label for="nome">Nome:</label>

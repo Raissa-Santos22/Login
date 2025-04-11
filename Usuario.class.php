@@ -38,24 +38,5 @@ class Usuario {  // classe Usuário
         // passo 4 exercutar a query
         $stmt->execute();
     }
-
-    function chkUser($email){ // método para checar se o usuário existe
-        // passo 1 
-        $sql = "SELECT * FROM usuarios WHERE email = :e ";
-
-        // passo 2 
-        $stmt = $this->pdo->prepare($sql);
-
-        // passo 3
-        $stmt->bindValue(":e", $email);
-
-        // passo 4 
-        $stmt->execute();
-
-        // saber se encontrou o registro
-
-        return $stmt->rowCount();
-
-    }
 }
 ?>
